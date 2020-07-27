@@ -1,3 +1,5 @@
+
+
 def join_nested_strings(src)
   array_of_strings = []
   index = 0 
@@ -14,8 +16,8 @@ def join_nested_strings(src)
     
     index += 1
   end 
-  new_string = array_of_strings.join(" ")
-  new_string
+  array_of_strings.join(" ")
+  
   #creat an amepyt Array
   #iterate over first Array
   #iterate over second Array
